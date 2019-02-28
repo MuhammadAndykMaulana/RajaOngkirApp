@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dikirim dari"
+        android:id="@+id/txtView1"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/SpinnerProv"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/SpinnerCity"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtView2"
+        android:text="ke tujuan"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/SpinnerProvDes"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:id="@+id/SpinnerCityDes"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnSubmit"
+        android:onClick="checkcost"
+        android:layout_height="wrap_content"
+        android:text="cek"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>
